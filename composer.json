@@ -1,0 +1,21 @@
+{
+    "name": "dwgebler/security-headers-bundle",
+    "description": "Set security headers for Symfony apps through middleware",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gebler\\SecurityHeadersBundle\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Gebler",
+            "email": "me@davegebler.com"
+        }
+    ]
+}
